@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="6.98" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Verifying the login functionality" name="Login with valid functionality" time="6.707">
+<system-out><![CDATA[
+Given Launch chrome browser and hit test URL................................passed
+When Enter valid user name and password.....................................passed
+And Click login button to ensure login success..............................passed
+Then User should be logged in successfully..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the login functionality" name="Invalid - Login with valid functionality" time="0.021">
+<system-out><![CDATA[
+Given Invalid - Launch chrome browser and hit test URL......................passed
+When Invalid - Enter valid user name and password...........................passed
+And Invalid - Click login button to ensure login success....................passed
+Then Invalid - User should be logged in successfully........................passed
+]]></system-out>
+</testcase>
+</testsuite>
