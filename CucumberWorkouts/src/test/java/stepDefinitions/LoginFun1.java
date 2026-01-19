@@ -26,7 +26,7 @@ public class LoginFun1 {
 
 		driver = new ChromeDriver();
 
-		driver.navigate().to("http://192.168.1.11:83/Home/index");
+		driver.navigate().to("http://192.168.1.11:81/Home/index");
 
 	}
 	@When("Enter valid user name and password")
