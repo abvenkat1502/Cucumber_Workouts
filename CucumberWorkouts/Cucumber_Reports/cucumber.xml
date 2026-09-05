@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="25.2" tests="2" skipped="0" failures="0" errors="0">
-<testcase classname="Verifying the login functionality" name="Login with valid functionality" time="24.929">
+<testsuite name="Cucumber" time="43.245" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Verifying the login functionality" name="Login with valid functionality" time="42.888">
 <system-out><![CDATA[
 Given Launch chrome browser and hit test URL................................passed
 When Enter valid user name and password.....................................passed
@@ -8,7 +8,7 @@ And Click login button to ensure login success..............................pass
 Then User should be logged in successfully..................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the login functionality" name="Invalid - Login with valid functionality" time="0.011">
+<testcase classname="Verifying the login functionality" name="Invalid - Login with valid functionality" time="0.013">
 <system-out><![CDATA[
 Given Invalid - Launch chrome browser and hit test URL......................passed
 When Invalid - Enter valid user name and password...........................passed
